@@ -29,8 +29,9 @@ SECRET_KEY =\
 DEBUG = True
 
 ALLOWED_HOSTS=['localhost',
-'https://kaig2002-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/']
-CSRF_TRUSTED_ORIGINS=['https://kaig2002-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/']
+    'kaig2002-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai/',
+    '127.0.0.1']
+CSRF_TRUSTED_ORIGINS=['https://kaig2002-8000.theianext-1-labs-prod-misc-tools-us-east-0.proxy.cognitiveclass.ai']
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [],
